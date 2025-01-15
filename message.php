@@ -1,4 +1,4 @@
-//Contact Form in PHP
+<!-- //Contact Form in PHP
 <?php
   $name = htmlspecialchars($_POST['name']);
   $email = htmlspecialchars($_POST['email']);
@@ -22,4 +22,4 @@
   }else{
     echo "Email and message field is required!";
   }
-?>
+?> -->
