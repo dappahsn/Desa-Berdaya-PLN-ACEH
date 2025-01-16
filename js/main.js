@@ -208,3 +208,8 @@
 
 })();
 
+function resetForm(form) {
+  // Reset form input setelah submit
+  setTimeout(() => form.reset(), 10); // Tunggu sebentar agar data terkirim
+  return true; // Refresh halaman secara otomatis
+}
