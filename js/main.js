@@ -208,20 +208,3 @@
 
 })();
 
-
-document.querySelector('form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const formData = new FormData(e.target);
-  const response = await fetch(e.target.action, {
-      method: 'POST',
-      body: formData,
-      headers: {
-          'Accept': 'application/json'
-      }
-  });
-  if (response.ok) {
-      alert('Pesan berhasil terkirim!');
-  } else {
-      alert('Terjadi kesalahan. Silakan periksa konfigurasi.');
-  }
-});
