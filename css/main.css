@@ -692,7 +692,7 @@ section,
 }
 
 .index .btn-get-started:hover {
-  background: var(--accent-color);
+  background: rgba(var(--accent-color), 0.5);
   color: var(--color-skunder);
   text-decoration: none;
 }
@@ -1758,5 +1758,4 @@ section,
 .kursus-bahasa-inggris .meta-bottom .share i {
   padding-left: 5px;
 } 
-
 
