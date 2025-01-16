@@ -208,33 +208,20 @@
 
 })();
 
-// //Contact Form in PHP
-// const form = document.querySelector("form"),
-// statusTxt = form.querySelector(".hubungi-kami .php-email-form span");
-// form.onsubmit = (e)=>{
-//   e.preventDefault();
-//   statusTxt.style.color = "#043873";
-//   statusTxt.style.display = "block";
-//   statusTxt.innerText = "Sending your message...";
-//   form.classList.add("disabled");
 
-//   let xhr = new XMLHttpRequest();
-//   xhr.open("POST", "message.php", true);
-//   xhr.onload = ()=>{
-//     if(xhr.readyState == 4 && xhr.status == 200){
-//       let response = xhr.response;
-//       if(response.indexOf("required") != -1 || response.indexOf("valid") != -1 || response.indexOf("failed") != -1){
-//         statusTxt.style.color = "red";
-//       }else{
-//         form.reset();
-//         setTimeout(()=>{
-//           statusTxt.style.display = "none";
-//         }, 3000);
-//       }
-//       statusTxt.innerText = response;
-//       form.classList.remove("disabled");
-//     }
-//   }
-//   let formData = new FormData(form);
-//   xhr.send(formData);
-// }
+document.querySelector('form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const response = await fetch(e.target.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+          'Accept': 'application/json'
+      }
+  });
+  if (response.ok) {
+      alert('Pesan berhasil terkirim!');
+  } else {
+      alert('Terjadi kesalahan. Silakan periksa konfigurasi.');
+  }
+});
