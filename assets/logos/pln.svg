@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-labelledby="title-pln desc-pln">
+  <title id="title-pln">PLN Logo Placeholder</title>
+  <desc id="desc-pln">A blue rectangular placeholder logo for PLN with white PLN text.</desc>
+  <rect width="240" height="80" rx="10" fill="#005bbb" />
+  <text x="120" y="49" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#ffffff">PLN</text>
+</svg>

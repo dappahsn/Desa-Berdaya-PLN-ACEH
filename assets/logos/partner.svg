@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-labelledby="title-partner desc-partner">
+  <title id="title-partner">Partner Logo Placeholder</title>
+  <desc id="desc-partner">An orange rectangular placeholder logo for partners with white PARTNER text.</desc>
+  <rect width="240" height="80" rx="10" fill="#c2410c" />
+  <text x="120" y="49" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">PARTNER</text>
+</svg>
