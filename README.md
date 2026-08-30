@@ -1,5 +1,11 @@
 # Desa Berdaya — PLN ACEH
 
+<p align="center">
+  <img src="assets/logos/pln.svg" alt="PLN logo placeholder" width="180" />
+  <img src="assets/logos/logo-aceh.svg" alt="Aceh logo placeholder" width="180" />
+  <img src="assets/logos/partner.svg" alt="Partner logo placeholder" width="180" />
+</p>
+
 Desa Berdaya adalah platform untuk memberdayakan komunitas desa di provinsi Aceh melalui pemantauan, koordinasi, dan pelaporan program kelistrikan bersama PLN Aceh. Proyek ini menyediakan alat bagi tim lapangan, pemerintahan desa, dan pihak PLN untuk meningkatkan transparansi, responsivitas, dan efisiensi operasional.
 
 ## Fitur
