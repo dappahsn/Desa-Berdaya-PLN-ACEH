@@ -6,9 +6,6 @@
   </div>
   
   <br />
-  
-  <!-- Anda bisa mengganti dengan img/Peta-Desa-Berdaya-white.png jika background GitHub gelap -->
-  <img src="img/Peta-Desa-Berdaya.png" alt="Peta Desa Berdaya PLN Aceh" height="150">
 
   <h1>Desa Berdaya PLN Aceh</h1>
   
