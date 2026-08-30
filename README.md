@@ -1,13 +1,14 @@
 <div align="center">
   <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-    <img src="logo-bumn.png" alt="Logo BUMN" height="70">
-    <img src="logo-pln.png" alt="Logo PLN" height="70">
-    <img src="logo-banda-aceh.png" alt="Logo Banda Aceh" height="70">
+    <img src="img/bumn-header.png" alt="Logo BUMN" height="70">
+    <img src="img/plnpeduli-header.png" alt="Logo PLN Peduli" height="70">
+    <img src="img/bandaaceh-header.png" alt="Logo Banda Aceh" height="70">
   </div>
   
   <br />
   
-  <img src="logo.png" alt="Desa Berdaya PLN Aceh Logo" height="150">
+  <!-- Anda bisa mengganti dengan img/Peta-Desa-Berdaya-white.png jika background GitHub gelap -->
+  <img src="img/Peta-Desa-Berdaya.png" alt="Peta Desa Berdaya PLN Aceh" height="150">
 
   <h1>Desa Berdaya PLN Aceh</h1>
   
@@ -39,7 +40,7 @@ Proyek ini dibangun sebagai bentuk sinergi dan kontribusi nyata dalam memajukan 
 - **Akses Multi-Role (RBAC):** Sistem *login* yang terintegrasi untuk Admin PLN, Perangkat Desa, dan Masyarakat Umum.
 
 ## 💻 Tech Stack
-*(Catatan: Anda dapat menyesuaikan stack di bawah ini sesuai dengan teknologi aktual yang Anda gunakan di repositori)*
+*(Catatan: Sesuaikan kembali stack di bawah ini dengan teknologi spesifik yang Anda gunakan pada proyek)*
 
 **Frontend:**
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -48,7 +49,7 @@ Proyek ini dibangun sebagai bentuk sinergi dan kontribusi nyata dalam memajukan 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 **Tools & Environment:**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ## 🚀 Instalasi
 
@@ -88,11 +89,11 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
    ```
 
 ## 📂 Struktur Logo & Aset
-Proyek ini mengintegrasikan logo resmi institusi terkait. Pastikan file logo berikut tersedia di dalam *root directory* atau folder aset Anda (sesuaikan *path* gambar di bagian atas README ini jika logo disimpan dalam folder seperti `public/assets/images/`):
-- `logo-bumn.png` - Kementerian BUMN
-- `logo-pln.png` - PT PLN (Persero)
-- `logo-banda-aceh.png` - Pemerintah Kota Banda Aceh
-- `logo.png` - Logo Utama Aplikasi
+Aset visual yang digunakan pada dokumentasi ini berada di dalam folder `img/`:
+- `bumn-header.png` - Logo Kementerian BUMN
+- `plnpeduli-header.png` - Logo PLN Peduli
+- `bandaaceh-header.png` - Logo Pemerintah Kota Banda Aceh
+- `Peta-Desa-Berdaya.png` - Ilustrasi/Logo Utama Aplikasi
 
 ## 👨‍💻 Kontributor
 - **Muhammad Daffa Husen** - Teknik Komputer, Universitas Syiah Kuala
