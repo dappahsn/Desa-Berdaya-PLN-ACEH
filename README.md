@@ -1,8 +1,8 @@
 <div align="center">
   <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-    <img src="img/bumn-header.png" alt="Logo BUMN" height="70">
-    <img src="img/plnpeduli-header.png" alt="Logo PLN Peduli" height="70">
-    <img src="img/bandaaceh-header.png" alt="Logo Banda Aceh" height="70">
+    <img src="img/bumn-header.png" alt="BUMN Logo" height="70">
+    <img src="img/plnpeduli-header.png" alt="PLN Peduli Logo" height="70">
+    <img src="img/bandaaceh-header.png" alt="Banda Aceh Logo" height="70">
   </div>
   
   <br />
@@ -10,34 +10,34 @@
   <h1>Desa Berdaya PLN Aceh</h1>
   
   <p>
-    <strong>Sistem Informasi & Manajemen Program Desa Berdaya PLN di Wilayah Aceh</strong>
+    <strong>Information System & Management of PLN's Desa Berdaya Program in Aceh Region</strong>
   </p>
 
   <p>
-    <a href="#-tentang-proyek">Tentang</a> •
-    <a href="#-fitur-utama">Fitur</a> •
+    <a href="#-about-the-project">About</a> •
+    <a href="#-key-features">Features</a> •
     <a href="#-tech-stack">Tech Stack</a> •
-    <a href="#-instalasi">Instalasi</a> •
-    <a href="#-kontributor">Kontributor</a>
+    <a href="#-installation">Installation</a> •
+    <a href="#-contributors">Contributors</a>
   </p>
 </div>
 
 ---
 
-## 📖 Tentang Proyek
-**Desa Berdaya PLN Aceh** adalah sebuah platform digital yang dikembangkan untuk mendukung, memonitor, dan mengelola program *Corporate Social Responsibility (CSR)* dari PT PLN (Persero) di wilayah Aceh. Aplikasi ini bertujuan untuk memberdayakan masyarakat desa melalui digitalisasi administrasi desa, pemantauan program ekonomi lokal, serta transparansi bantuan.
+## 📖 About the Project
+**Desa Berdaya PLN Aceh** is a digital platform developed to support, monitor, and manage the Corporate Social Responsibility (CSR) programs of PT PLN (Persero) in the Aceh region. This application aims to empower rural communities through the digitalization of village administration, monitoring of local economic programs, and transparency of aid distribution.
 
-Proyek ini dibangun sebagai bentuk sinergi dan kontribusi nyata dalam memajukan desa-desa di Aceh, sejalan dengan visi BUMN, PLN, dan Pemerintah Kota Banda Aceh.
+This project was built as a form of synergy and real contribution to advancing villages in Aceh, in line with the vision of the Ministry of State-Owned Enterprises (BUMN), PLN, and the Banda Aceh City Government.
 
-## ✨ Fitur Utama
-- **Manajemen Profil Desa:** Pencatatan dan pembaruan data potensi ekonomi, infrastruktur, dan demografi desa.
-- **Monitoring Program CSR:** Pelacakan progres bantuan dan program pemberdayaan PLN secara *real-time*.
-- **Sistem Pelaporan Berbasis Digital:** Pembuatan laporan kegiatan dan penggunaan dana secara otomatis dan transparan.
-- **Dashboard Analitik Interaktif:** Visualisasi data statistik perkembangan desa dan keberhasilan program dengan grafik informatif.
-- **Akses Multi-Role (RBAC):** Sistem *login* yang terintegrasi untuk Admin PLN, Perangkat Desa, dan Masyarakat Umum.
+## ✨ Key Features
+- **Village Profile Management:** Recording and updating data regarding economic potential, infrastructure, and village demographics.
+- **CSR Program Monitoring:** Real-time tracking of aid progress and PLN's empowerment programs.
+- **Digital-Based Reporting System:** Automatic and transparent generation of activity and fund usage reports.
+- **Interactive Analytics Dashboard:** Statistical data visualization of village development and program success with informative charts.
+- **Multi-Role Access (RBAC):** Integrated login system for PLN Admins, Village Officials, and the General Public.
 
 ## 💻 Tech Stack
-*(Catatan: Sesuaikan kembali stack di bawah ini dengan teknologi spesifik yang Anda gunakan pada proyek)*
+*(Note: Adjust the stack below according to the specific technologies used in your project)*
 
 **Frontend:**
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -48,58 +48,58 @@ Proyek ini dibangun sebagai bentuk sinergi dan kontribusi nyata dalam memajukan 
 **Tools & Environment:**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-## 🚀 Instalasi
+## 🚀 Installation
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
+Follow the steps below to run the project locally:
 
-1. **Clone repository ini:**
+1. **Clone this repository:**
    ```bash
    git clone https://github.com/dappahsn/Desa-Berdaya-PLN-ACEH.git
    ```
 
-2. **Pindah ke direktori proyek:**
+2. **Navigate to the project directory:**
    ```bash
    cd Desa-Berdaya-PLN-ACEH
    ```
 
-3. **Install Dependensi:**
+3. **Install Dependencies:**
    ```bash
    npm install
-   # Jika menggunakan framework PHP/Laravel:
+   # If using PHP/Laravel framework:
    composer install
    ```
 
-4. **Konfigurasi Environment:**
-   - Duplikasi file `.env.example` menjadi `.env`
-   - Sesuaikan konfigurasi kredensial database Anda di dalam file `.env`
+4. **Environment Configuration:**
+   - Duplicate the `.env.example` file and rename it to `.env`
+   - Adjust your database credentials and configurations in the `.env` file
 
-5. **Setup Database:**
+5. **Database Setup:**
    ```bash
    php artisan migrate --seed
    ```
 
-6. **Jalankan Server Lokal:**
+6. **Run Local Server:**
    ```bash
    npm run dev
-   # dan
+   # and
    php artisan serve
    ```
 
-## 📂 Struktur Logo & Aset
-Aset visual yang digunakan pada dokumentasi ini berada di dalam folder `img/`:
-- `bumn-header.png` - Logo Kementerian BUMN
-- `plnpeduli-header.png` - Logo PLN Peduli
-- `bandaaceh-header.png` - Logo Pemerintah Kota Banda Aceh
-- `Peta-Desa-Berdaya.png` - Ilustrasi/Logo Utama Aplikasi
+## 📂 Logo & Assets Structure
+The visual assets used in this documentation are located in the `img/` folder:
+- `bumn-header.png` - Ministry of BUMN Logo
+- `plnpeduli-header.png` - PLN Peduli Logo
+- `bandaaceh-header.png` - Banda Aceh City Government Logo
+- `Peta-Desa-Berdaya.png` - Main Illustration/Application Logo
 
-## 👨‍💻 Kontributor
-- **Muhammad Daffa Husen** - Teknik Komputer, Universitas Syiah Kuala
+## 👨‍💻 Contributors
+- **Muhammad Daffa Husen** - Computer Engineering, Universitas Syiah Kuala
 - GitHub: [@dappahsn](https://github.com/dappahsn)
 
-## 📄 Lisensi
-Proyek ini didistribusikan di bawah lisensi **MIT License**. Lihat file `LICENSE` untuk informasi lebih lanjut.
+## 📄 License
+This project is distributed under the **MIT License**. See the `LICENSE` file for more information.
 
 ---
 <p align="center">
-  Dibuat dengan ❤️ di Banda Aceh, Aceh, Indonesia.
+  Made with ❤️ in Banda Aceh, Aceh, Indonesia.
 </p>
